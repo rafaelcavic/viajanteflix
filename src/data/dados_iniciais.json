@@ -31,7 +31,7 @@
       "titulo": "Colômbia",
       "cor": "orange",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
+        "text": "",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "videos": [
@@ -53,7 +53,7 @@
       "titulo": "Estado Unidos",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
+        "text": "",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
       },
       "videos": [
@@ -67,7 +67,7 @@
       "titulo": "Grécia",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "VIAGEM a GRÉCIA ANTIGA",
+        "text": "",
         "url": ""
       },
       "videos": [
