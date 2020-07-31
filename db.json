@@ -3,16 +3,11 @@
     {
       "id": 1,
       "titulo": "Brasil",
-      "cor": "#6BD1FF",
+      "cor": "#2ecc71",
       "link_extra": {
         "text": "",
         "url": "https://www.youtube.com/watch?v=KstBSK_7GQQ"
       }
-    },
-    {
-      "titulo": "México",
-      "cor": "#f50a0a",
-      "id": 2
     }
   ],
   "videos": [
@@ -21,24 +16,6 @@
       "categoriaId": 1,
       "titulo": "10 Lugares Incríveis que Você Precisa Visitar Antes de #Morrer",
       "url": "https://www.youtube.com/watch?v=KstBSK_7GQQ"
-    },
-    {
-      "id": 2,
-      "categoriaId": 1,
-      "titulo": "JALAPÃO - Roteiro de 4 dias e Melhores Fervedouros - VAZ AONDE",
-      "url": "https://www.youtube.com/watch?v=v-RN_cDGjH8"
-    },
-    {
-      "titulo": "FERNANDO de NORONHA | Um destino INCRÍVEL no Brasil -  Num Pulo",
-      "url": "https://www.youtube.com/watch?v=kSvaiM9Go2Y",
-      "categoriaId": 1,
-      "id": 3
-    },
-    {
-      "titulo": "O que fazer em Cancun?",
-      "url": "https://www.youtube.com/watch?v=vvttUJgGOpA",
-      "categoriaId": 2,
-      "id": 4
     }
   ]
 }
