@@ -109,20 +109,14 @@ function CadastroCategoria() {
           </label>
         </div> */}
 
-        <button>
+        <button type="submit">
           Cadastrar
         </button>
       </form>
 
-      {categorias.length === 0 && (
-      <div>
-        Loading ...
-      </div>
-      )}
-
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
+        {categorias.map((categoria) => (
+          <li key={`${categoria.id}`}>
             {categoria.titulo}
           </li>
         ))}
