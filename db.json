@@ -9,7 +9,7 @@
         "url": "https://www.youtube.com/watch?v=KstBSK_7GQQ"
       }
     }
-   ],
+  ],
   "videos": [
     {
       "id": 1,
@@ -22,6 +22,12 @@
       "categoriaId": 1,
       "titulo": "JALAPÃO2 - Roteiro de 4 dias e Melhores Fervedouros - VAZ AONDE",
       "url": "https://www.youtube.com/watch?v=v-RN_cDGjH8"
+    },
+    {
+      "titulo": "Video padrão",
+      "url": "https://www.youtube.com/watch?v=BOtg6dGTnLc",
+      "categoriaId": 1,
+      "id": 3
     }
   ]
 }
