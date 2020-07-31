@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React, { useEffect, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
@@ -12,9 +13,9 @@ function CadastroVideo() {
   const [categorias, setCategorias] = useState([]);
   const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { handleChange, values } = useForm({
-    titulo: '',
-    url: '',
-    categoria: '',
+    titulo: 'Video padrão',
+    url: 'https://www.youtube.com/watch?v=BOtg6dGTnLc',
+    categoria: 'Português',
   });
 
   useEffect(() => {
@@ -24,6 +25,8 @@ function CadastroVideo() {
         setCategorias(categoriasFromServer);
       });
   }, []);
+
+  console.log(categoryTitles);
 
   return (
     <PageDefault>
@@ -36,13 +39,15 @@ function CadastroVideo() {
           return categoria.titulo === values.categoria;
         });
 
+        console.log('categoriaEscolhida', categoriaEscolhida);
+
         videosRepository.create({
           titulo: values.titulo,
           url: values.url,
           categoriaId: categoriaEscolhida.id,
         })
           .then(() => {
-            console.log('Cadastrou com sucesso!');
+            console.log('Cadastro com sucesso!');
             history.push('/');
           });
       }}
@@ -73,9 +78,6 @@ function CadastroVideo() {
           Cadastrar
         </Button>
       </form>
-
-      <br />
-      <br />
 
       <Link to="/cadastro/categoria">
         Cadastrar Categoria

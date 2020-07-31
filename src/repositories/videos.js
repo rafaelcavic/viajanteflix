@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import config from '../config';
 
 const URL_VIDEOS = `${config.URL_BACKEND_TOP}/videos`;
@@ -15,8 +16,7 @@ function create(objetoDoVideo) {
         const resposta = await respostaDoServidor.json();
         return resposta;
       }
-
-      throw new Error('Não foi possível cadastrar os dados :(');
+      throw new Error('Não foi possível cadastrar os dados.');
     });
 }
 
