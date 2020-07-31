@@ -32,6 +32,7 @@ function CadastroCategoria() {
       });
   }, []);
 
+  
   return (
     <PageDefault>
       <h1>
